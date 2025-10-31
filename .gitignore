@@ -1,0 +1,19 @@
+cat > .gitignore <<'EOF'
+# Env
+*.env
+# Node / Python
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Build / generated
+dist/
+build/
+
+# OS / editors
+.DS_Store
+.vscode/
+npm-debug.log*
+yarn-error.log*
+EOF
